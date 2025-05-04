@@ -1,4 +1,4 @@
-package com.wsr.bob
+package com.wsr.people.bob
 
 import com.wsr.external.Human
 import com.wsr.external.Topic

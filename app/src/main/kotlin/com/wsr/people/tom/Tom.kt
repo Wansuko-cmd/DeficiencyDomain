@@ -1,4 +1,4 @@
-package com.wsr.tom
+package com.wsr.people.tom
 
 import com.wsr.external.Fashion
 import com.wsr.external.Human

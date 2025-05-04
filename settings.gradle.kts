@@ -2,7 +2,6 @@
 
 pluginManagement {
     enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-    includeBuild("build-logic")
     repositories {
         gradlePluginPortal()
         google()
@@ -16,14 +15,8 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
-    versionCatalogs {
-        create("buildLogic") {
-            from(files("./gradle/build-logic.versions.toml"))
-        }
-    }
 }
 
 rootProject.name = "DeficiencyDomain"
 
 include(":jvm")
-include(":shared")

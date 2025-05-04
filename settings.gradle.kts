@@ -19,5 +19,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "DeficiencyDomain"
 
-include(":jvm")
-include(":external")
+include(":app")

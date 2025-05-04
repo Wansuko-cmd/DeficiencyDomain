@@ -1,4 +1,4 @@
-package com.wsr
+package com.wsr.external
 
 object Fashion : Human {
     override fun response(topic: Topic): String = when (topic) {

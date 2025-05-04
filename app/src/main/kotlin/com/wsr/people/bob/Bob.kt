@@ -3,7 +3,7 @@ package com.wsr.people.bob
 import com.wsr.external.Human
 import com.wsr.external.Topic
 
-class Bob : Human {
+object Bob : Human {
     val values: MutableMap<Topic, String> = mutableMapOf(
         Topic.Hobby to "登山",
     )

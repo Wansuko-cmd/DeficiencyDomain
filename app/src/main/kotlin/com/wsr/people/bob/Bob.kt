@@ -4,9 +4,7 @@ import com.wsr.external.Human
 import com.wsr.external.Topic
 
 object Bob : Human {
-    val values: MutableMap<Topic, String> = mutableMapOf(
-        Topic.Hobby to "登山",
-    )
+    val values: MutableMap<Topic, String> = mutableMapOf()
 
     override fun response(topic: Topic): String = values.getOrPut(topic) { "分からない" }
 
